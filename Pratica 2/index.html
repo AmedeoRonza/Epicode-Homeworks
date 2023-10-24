@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Description" content="Primi passi operativi per creare un modello di pagina Html per un post. Scopri come iniziare in modo facile">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sviluppo di una pagina web - Blog Epicode</title>
+</head>
+<body>
+    <header>
+        <img src="img/logo.svg" alt="Logo Epicode">
+        <h1>Epicode - Il Blog dei developers</h1>
+    </header>
+    <nav><!-- menu di navigazione -->
+        <ul type="none">
+          <li><a href="#">Home Page</a></li>
+          <li><a href="#">Articoli</a></li>
+          <li><a href="#">Lavora con noi</a></li>
+        </ul>
+    </nav>
+    <hr>
+    <main>
+        <article>
+      <h2>Come creare un template per i post</h2>
+      <h5>Di <a href="#">Mario Rossi</a> - pubblicato il 25-10-2020</h5>
+      <p>La prima cosa da fare è suddividere in blocchi logici la pagina, identificando le parti comuni da applicare a tutte le
+        pagine <br>
+        Le varie aree saranno quindi suddivise in: <br></p>
+        <ul>
+            <li>Contenuti di intestazione del tag <a href="#">&lt;header&gt;</a></li>
+            <li>Contenuti centrali variabili del tag <a href="#">&lt;main&gt;</a> (corpo principale)</li>
+            <li>Contenuti di fine pagina comuni, da inserire nel tag <a href="#">&lt;footer&gt;</a></li>
+        </ul>
+        <b>Formattazione del codice</b>
+        <p>Il testo dell'articolo dovrà essere formattato per identificare tutte le parti da selezionare con i CSS. Perciò i passi saranno:</p>
+        <ol>
+            <li>Progettare il markup assegnando ad ogni specifico testo il tag appropriato</li>
+            <li>Scrivere l'HTML dai tag esterni a quelli interni e dall'alto verso il basso</li>
+            <li>Applicare gli stili CSS</li>
+        </ol>
+        <p>L'applicazione di stili CSS è cresciuta negli anni fino a raggiungere la diffusione pressoché totale.</p>    
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="3">Diffusione dei CSS</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Anno</td>
+                    <td>% di utilizzo</td>
+                    <td>Supporto browsers</td>
+                </tr>
+                <tr>
+                    <td>2000</td>
+                    <td>20%</td>
+                    <td>17%</td>
+                </tr>
+                <tr>
+                    <td>2002</td>
+                    <td>35%</td>
+                    <td>22%</td>
+                </tr>
+                <tr>
+                    <td>2004</td>
+                    <td>45%</td>
+                    <td>42%</td>
+                </tr>
+                <tr>
+                    <td>2008</td>
+                    <td>80%</td>
+                    <td>51%</td>
+                </tr>
+                <tr>
+                    <td>2012</td>
+                    <td>100%</td>
+                    <td>76%</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>Un test di validazione potrà essere fatto tramite il <a href="https://validator.w3.org/" target="_blank">tool online</a> dedicato allo scopo. <br> 
+            Una volta ottimizzato il tutto, avremo raggiunto il nostro obiettivo ed essere stati dei veri developers come loro: <br>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/xFRzzSF_6gk?si=UVTJYYH4QBXbfP8s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </p>
+    </article>
+    <hr>
+    <h4>Vuoi rimanere aggiornato su altre novità del blog? Iscriviti alla nostra newsletter:</h4>
+    <form action="#" method="#" onsubmit="alert('Dati inviati')">
+      <label for="E-mail">Inserisci l'email</label>
+      <input type="email" name="email" id="email" required><br>
+      <button type="submit">Iscriviti!</button>
+    </form>
+    </main>
+    <hr>
+    <aside>
+      <h4>Articoli correlati</h4>
+      <h5><a href="#">Validare il codice Html</a></h5>
+      Categoria: Develop <br>
+      Data: 18-09-2020 
+      <h5><a href="#">Correggere la sintassi</a></h5>
+      Categoria: Develop <br>
+      Data: 16-09-2020
+      <h5><a href="#">Meno Kb nella pagina</a></h5>
+      Categoria: Ottimizzazione <br>
+      Data: 30-09-2020
+    </aside>
+    <hr>
+    <footer>
+        <h5>Blog Epicode &copy; 2023</h5>
+        <p>Testata online di <a href="#">Mario Rossi</a>, registrata con prot. n.213/2018 - via Luigi Einaudi 2 - Milano. P.IVA 00112233.</p>
+        <a href="mailto:info@epicode.school">info@epicode.school</a>
+    </footer>
+</body>
+</html>
+
+
+
