@@ -1,0 +1,41 @@
+* {font-family: Georgia, 'Times New Roman', Times, serif;}
+#contenitore {width: 1024px;
+              margin: 0 auto;}
+.logo {height: auto;
+       text-align: center;}
+.blocco_rosa h4 {background-color: rgb(245, 245, 220, 0.9);
+                 color: rgb(1, 75, 1);
+                 padding-top: 15px;
+                 padding-bottom: 15px;
+                 border-top: 1px solid coral;
+                 text-align: center;}
+.titolo h1 {margin-top: 60px;
+            margin-bottom: 30px;
+            text-align: center;}
+.titolo h4 {font-weight: lighter;
+            text-align: center;}
+.focaccia img {padding-left: 150px;}
+.focaccia h5 {color: gray;
+              text-align: center;}
+.feature h4 {padding-left: 160px;
+             font-weight: lighter;
+             color: brown;
+             margin: 0 auto;}
+.sottofeature h4 {padding-left: 160px;
+                  margin: 5px auto;}
+.ingredients h2 {padding-left: 140px;
+                 font-weight: 500;}
+.forthe h3 {padding-left: 140px;}
+.lista1 {padding-left: 160px;}
+.lista1 li {margin: 15px;}
+.forthe2 h3 {padding-left: 140px;
+             padding-top: 20px;}
+.lista2 {padding-left: 160px;}
+.lista2 li {margin: 15px;}
+.metodo h2 {padding-left: 140px;
+            font-weight: 500;}
+.makethe h3 {padding-left: 160px;
+             padding-top: 15px;}
+.makethe p {padding-left: 160px;}
+footer p {padding-left: 120px;}
+
