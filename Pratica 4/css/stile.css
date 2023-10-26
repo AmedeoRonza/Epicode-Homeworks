@@ -1,0 +1,37 @@
+
+* {font-family: 'Poppins', sans-serif;}
+.container {text-align: center;
+            height: auto;
+            background-color: darkcyan;
+            margin: 15px;
+            padding: 50px;
+        }
+.logo {padding-bottom: 25px;}
+.h1 {color: white;}
+.h1b {padding-top: 25px;}
+.maincontainer {
+    height: auto;
+    background-color: white;
+    margin: 15px;
+    padding: 50px;}
+.h12 {font-weight: lighter;}
+.code {color: brown;}
+.table {border-bottom: 2px solid blue;}
+.youtube {border-radius: 10px 10px 10px 10px;
+          margin-top: 15px;
+        }
+.novita {text-align: center;
+    height: auto;
+    background-color: lightgray;
+    margin: 15px;
+    padding: 50px;
+}
+.ciao {font-weight: lighter;}
+.button {background-color: blue;
+        color: white;}
+
+
+
+
+
+
